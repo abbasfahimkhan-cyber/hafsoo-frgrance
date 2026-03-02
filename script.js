@@ -56,7 +56,7 @@ const State = {
             badge: "Trending",
             notes: "Top: Amber | Heart: Vanilla",
             description: "A warm, soul-soothing blend of golden amber and sweet Madagascan vanilla.",
-            image: "images/product1.png"
+            image: "images/product5.png"
         },
         {
             id: 6,
@@ -66,7 +66,7 @@ const State = {
             badge: "",
             notes: "Top: Taif Rose | Heart: Honey",
             description: "Capturing the morning dew on fresh roses, mixed with a hint of wild honey.",
-            image: "images/product3.png"
+            image: "images/product6.png"
         }
     ],
     majidEdition: [
@@ -832,3 +832,4 @@ const UrgencySystem = {
         this.intervals = [];
     }
 };
+
