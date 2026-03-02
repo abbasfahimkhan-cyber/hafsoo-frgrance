@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Hafsoo Fragrance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="policy-page">
+    <header id="main-header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Hafsoo <span>Fragrance</span></a>
+                <div class="nav-links" style="display: flex; gap: 20px; align-items: center;">
+                    <a href="index.html#products"
+                        style="color: var(--white); text-decoration: none; font-weight: 500;">Shop</a>
+                    <button class="cart-btn" id="cart-btn" aria-label="View Cart">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-subtitle">Your Data, Protected</div>
+                <h1>Privacy Policy</h1>
+            </div>
+        </section>
+
+        <div class="policy-container">
+            <div class="policy-content-section">
+                <h2>Information Collection</h2>
+                <p>We respect your privacy and are committed to protecting your personal data. We collect information
+                    through the following methods:</p>
+                <ul>
+                    <li>Personal details provided by you (Name, Shipping Address, Phone Number, Email).</li>
+                    <li>Technical data (IP Address, Browser Type) as you navigate our website.</li>
+                    <li>Transaction history related to your orders.</li>
+                </ul>
+            </div>
+
+            <div class="policy-content-section">
+                <h2>Use of Information</h2>
+                <p>The information we collect is used solely to provide a better shopping experience:</p>
+                <ul>
+                    <li>To process and deliver your orders efficiently.</li>
+                    <li>To send order confirmations and tracking updates.</li>
+                    <li>To personalize your experience and show relevant perfume recommendations.</li>
+                    <li>To improve our website's functionality and security.</li>
+                </ul>
+            </div>
+
+            <div class="policy-content-section">
+                <h2>Data Protection</h2>
+                <p>We implement strict security measures to ensure your data stays safe:</p>
+                <ul>
+                    <li>Use of SSL encryption for all data transfers.</li>
+                    <li>Secure databases with limited access to authorized personnel.</li>
+                    <li>We never sell or rent your personal information to third parties for marketing purposes.</li>
+                </ul>
+            </div>
+
+            <div class="policy-content-section">
+                <h2>Cookies Usage</h2>
+                <p>Our website uses cookies to enhance your journey. Cookies help us:</p>
+                <ul>
+                    <li>Remember items in your shopping cart.</li>
+                    <li>Understand your preferences based on previous site activity.</li>
+                    <li>Compile aggregate data about site traffic to offer better site experiences.</li>
+                </ul>
+                <div class="contact-box">
+                    <p>You can choose to disable cookies through your browser settings, but some parts of our website
+                        may not function correctly as a result.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="logo">Hafsoo <span>Fragrance</span></div>
+                <p>The art of perfume making is a journey of the soul, capturing moments in timeless scents. Crafted
+                    with passion, worn with pride.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="index.html#products">Oudh Collection</a></li>
+                    <li><a href="index.html#products">Traditional Attars</a></li>
+                    <li><a href="index.html#products">Luxury EDP</a></li>
+                    <li><a href="index.html#products">Signature Blends</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="customer-care.html">Customer Care</a></li>
+                    <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links footer-contact">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://facebook.com/abbassrsp" target="_blank" class="social-link facebook">FB</a>
+                    <a href="https://instagram.com/abbasiba313" target="_blank" class="social-link instagram">IG</a>
+                    <a href="https://wa.me/92315983133" target="_blank" class="social-link whatsapp">WA</a>
+                </div>
+                <p>Client Care: 03159831334</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                &copy; 2026 Hafsoo Fragrance. | All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-footer" id="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-amount">Rs. 0</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
